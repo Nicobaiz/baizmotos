@@ -1,12 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baiz Motos</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>BAIZ MOTOS | Rectificaciones y Repuestos de Motocross & Enduro</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Baiz Motos</h1>
+
+    <!-- CABECERA / HEADER -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo-baiz-motos.png" alt="BAIZ MOTOS Logo" class="brand-logo-img pulse-logo">
+            <div class="header-titles">
+                <span class="logo-text">BAIZ <span class="highlight">MOTOS</span></span>
+                <span class="sub-logo-text">RECTIFICACIONES Y REPUESTOS</span>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Rectificaciones</a>
+            <a href="#catalogo">Repuestos Cross/Enduro</a>
+            <a href="#galeria">Acción Enduro</a>
+            <a href="#contacto" class="nav-btn">Contacto WhatsApp</a>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN HERO / INICIO -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-content">
+            <div class="badge-pulse"><i class="fa-solid fa-flag-checkered"></i> Especialistas en Cross & Enduro</div>
+            <h1 class="hero-title"><span class="glitch-text">RECTIFICACIONES Y REPUESTOS</span> AL MÁXIMO NIVEL</h1>
+            <p class="hero-subtitle">Rectificación de cilindros, tapas de cilindro, cigüeñales y los mejores repuestos de alto rendimiento para motos de Motocross, Enduro y Trail.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/TU_NUMERO_AQUI?text=Hola%20Baiz%20Motos,%20necesito%20consultar%20por%20una%20rectificación%20o%20repuesto" target="_blank" class="btn-whatsapp glow-effect">
+                    <i class="fa-brands fa-whatsapp"></i> Consulta por WhatsApp
+                </a>
+                <a href="#servicios" class="btn-outline">Ver Servicios</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-main-img-container">
+                <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=800&auto=format&fit=crop" alt="Motocross y Enduro Baiz Motos" class="hero-bike-img">
+            </div>
+            <div class="floating-card card-1">
+                <i class="fa-solid fa-gears"></i>
+                <div>
+                    <h4>Rectificación</h4>
+                    <p>Cilindros & Tapas a medida</p>
+                </div>
+            </div>
+            <div class="floating-card card-2">
+                <i class="fa-solid fa-mountain"></i>
+                <div>
+                    <h4>Enduro & Cross</h4>
+                    <p>Componentes reforzados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS DE RECTIFICACIÓN -->
+    <section id="servicios" class="services-section">
+        <div class="section-header">
+            <h2>RECTIFICACIONES <span class="highlight">DE PRECISIÓN</span></h2>
+            <p>Devolvemos la compresión y la potencia original a tu motor 2T y 4T</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-screwdriver-wrench service-icon"></i>
+                <h3>Rectificado de Cilindros</h3>
+                <p>Encamisado, bruñido y alesado de cilindros para motores de 2 y 4 tiempos. Tolerancias de competición.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-cogs service-icon"></i>
+                <h3>Tapas de Cilindro y Válvulas</h3>
+                <p>Asiento de válvulas, plano de tapa, guía y cambio de retenes para máxima estanqueidad.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-circle-nodes service-icon"></i>
+                <h3>Cigüeñales y Bielas</h3>
+                <p>Embaletado, armado, balanceado y cambio de kits de biela para altas RPM en pista y cerros.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CATEGORÍAS / REPUESTOS CROSS & ENDURO -->
+    <section id="catalogo" class="catalog">
+        <div class="section-header">
+            <h2>REPUESTOS Y <span class="highlight">ACCESORIOS</span></h2>
+            <p>Piezas preparadas para soportar la exigencia extrema del Enduro y Motocross</p>
+        </div>
+        
+        <div class="catalog-grid">
+            <div class="catalog-card">
+                <div class="card-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=600&auto=format&fit=crop" alt="Pistones y Bielas">
+                </div>
+                <h3>Pistones, Aros y Bielas</h3>
+                <p>Kits de pistones forjados, aros de competición y bielas reforzadas para 2T y 4T.</p>
+                <span class="card-tag">Consultar stock</span>
+            </div>
+
+            <div class="catalog-card">
+                <div class="card-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=600&auto=format&fit=crop" alt="Transmisión Heavy Duty">
+                </div>
+                <h3>Transmisión & Cadenas con Orring</h3>
+                <p>Piñones, coronas de aluminio/acero y cadenas reforzadas resisten barro, arena y rocas.</p>
+                <span class="card-tag">Consultar stock</span>
+            </div>
+
+            <div class="catalog-card">
+                <div class="card-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1515777315835-281b94c9589f?q=80&w=600&auto=format&fit=crop" alt="Suspensión Offroad">
+                </div>
+                <h3>Suspensión y Freno Offroad</h3>
+                <p>Retenes de barral, aceites de suspensión, pastillas sinterizadas y discos flotantes.</p>
+                <span class="card-tag">Consultar stock</span>
+            </div>
+
+            <div class="catalog-card">
+                <div class="card-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?q=80&w=600&auto=format&fit=crop" alt="Filtros y Aceites">
+                </div>
+                <h3>Filtros de Aire y Lubricantes 2T/4T</h3>
+                <p>Filtros de alto flujo y lubricantes sintéticos especiales para altas temperaturas.</p>
+                <span class="card-tag">Consultar stock</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA DE MOTOS EN ACCIÓN (CROSS / ENDURO) -->
+    <section id="galeria" class="bike-gallery">
+        <div class="section-header">
+            <h2>ACCIÓN <span class="highlight">CROSS & ENDURO</span></h2>
+            <p>Nuestra Pasión es el Terreno Extremo</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=800&auto=format&fit=crop" alt="Enduro en los Cerros">
+                <div class="gallery-overlay"><span>Enduro Extremo</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=800&auto=format&fit=crop" alt="Salto Motocross">
+                <div class="gallery-overlay"><span>Motocross en Pista</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=800&auto=format&fit=crop" alt="Ruta Trail / Hard Enduro">
+                <div class="gallery-overlay"><span>Hard Enduro & Trail</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1525160354320-d8e92641c563?q=80&w=800&auto=format&fit=crop" alt="Mantenimiento de Motor">
+                <div class="gallery-overlay"><span>Taller & Rectificados</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO FINAL -->
+    <section id="contacto" class="contact-cta">
+        <div class="contact-content">
+            <img src="logo-baiz-motos.png" alt="Baiz Motos Logo" class="cta-logo">
+            <h2>RECTIFICACIONES Y REPUESTOS BAIZ MOTOS</h2>
+            <p>Trae tu cilindro o consúltanos por el repuesto exacto que necesitas directamente por WhatsApp.</p>
+            <a href="https://wa.me/+5493883390713?text=Hola%20Baiz%20Motos,%20quiero%20consultar%20por%20rectificaciones%20o%20repuestos" target="_blank" class="btn-whatsapp btn-large glow-effect">
+                <i class="fa-brands fa-whatsapp"></i> Escribir a WhatsApp
+            </a>
+            <span class="response-time"><i class="fa-solid fa-bolt"></i> Asesoramiento técnico directo</span>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo-container">
+                <img src="logo-baiz-motos.png" alt="BAIZ MOTOS" class="brand-logo-img">
+                <div class="header-titles">
+                    <span class="logo-text">BAIZ <span class="highlight">MOTOS</span></span>
+                    <span class="sub-logo-text">RECTIFICACIONES Y REPUESTOS</span>
+                </div>
+            </div>
+            <p>&copy; 2026 BAIZ MOTOS. Especialistas en Rectificación de Motores, Motocross & Enduro.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
